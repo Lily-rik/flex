@@ -5,7 +5,6 @@
 }
 
 header {
-  width: 100%;
   padding: 30px 20px;
   background-color: #ff00ff;
   display: flex;
@@ -14,9 +13,8 @@ header {
 
 header > div {
   height: 70px;
-  width: 20px;
   margin: 0 10px;
-  background-color: #ff99ff;
+  background-color: #fbb3ff;
   flex-basis: 140px;
 }
 
@@ -25,22 +23,22 @@ header > :first-child {
 }
 
 main {
-  width: 1000px;
-  margin: 0 auto;
   display: flex;
+  justify-content: center;
 }
 
 .left-box {
   width: 300px;
-  background-color: #ccff99;
+  background-color: #d8ffb6;
 }
 
 .flex-boxes {
-  width: 700px;
+  max-width: 700px;
   padding: 20px;
-  background-color: #00cc00;
+  background-color: #00b522;
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 1;
   justify-content: center;
 }
 
@@ -48,14 +46,12 @@ main {
   height: 130px;
   margin: 10px;
   flex-basis: 200px;
-  flex-grow: 1;
-  background-color: #ffff66;
+  background-color: #fff75a;
 }
 
 footer {
-  width: 100%;
   padding: 20px;
-  background-color: #0099ff;
+  background-color: #52a1ff;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -65,6 +61,6 @@ footer > div {
   max-width: 600px;
   height: 40px;
   margin: 10px;
-  background-color: #ccffff;
+  background-color: #b6e7ff;
   flex-basis: 45%;
 }
